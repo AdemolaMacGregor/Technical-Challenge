@@ -9,7 +9,8 @@ Below are some background information about the script:
 
 Scripting Language: Shell
 Platform/Environment: Amazon Linux AMI (EC2 Cloud Instance)
-Tools & Dependencies:
+
+Tools & Dependencies required:
 	curL, awk, cat, sed, cut etc..
 	gnuplot software
 	jq (json filter)
