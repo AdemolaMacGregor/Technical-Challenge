@@ -17,7 +17,7 @@ gnuplot is installed (e.g. sudo yum install gnuplot)
 
 After the above are installed, restart the terminal with X11 Forwarding enabled (if accessing via SSH).
 
-Testing was conducted on Amazon Linux AMI and Centos &
+Testing was conducted on Amazon Linux AMI and Centos 7
 
 # HOW DOES THE SCRIPT WORK
 
