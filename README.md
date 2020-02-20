@@ -7,13 +7,17 @@ This script is for retrieving, stroing and plotting datetime and sequence number
 
 Before executing the script, please ensure the following:
 
+Make the script executable by -- chmod +x startcaprure.sh
+
 jq is installed (e.g. sudo yum install jq)
 
 xauth is installed (e.g. sudo yum install xauth)
 
 gnuplot is installed (e.g. sudo yum install gnuplot)
 
-X11 Forwarding is enabled on Terminal Session configuration
+After the above are installed, restart the terminal with X11 Forwarding enabled (if accessing via SSH).
+
+Testing was conducted on Amazon Linux AMI and Centos &
 
 # HOW DOES THE SCRIPT WORK
 
