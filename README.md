@@ -8,7 +8,7 @@ This script is for retrieving, stroing and plotting datetime and sequence number
 Below are some background information about the script:
 
 Scripting Language: Shell
-Platform/Environment: Amazon Linux AMI (EC2 Cloud Instance)
+Platform/Environment: Amazon Linux AMI (EC2 Cloud Instance) - Script can also be run on other Linux distributions. Kindly install the prerequisites.
 
 Tools & Dependencies required:
 	curL, awk, cat, sed, cut etc..
