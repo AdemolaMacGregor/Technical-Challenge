@@ -3,6 +3,18 @@ Repo for Hosting Technical Challenge Script
 
 This script is for retrieving, stroing and plotting datetime and sequence number data from latest validated ledger from Ripples API.
 
+# IMPORTANT POINTS
+
+Before executing the script, please ensure the following:
+
+jq is installed (e.g. sudo yum install jq)
+
+xauth is installed (e.g. sudo yum install xauth)
+
+gnuplot is installed (e.g. sudo yum install gnuplot)
+
+X11 Forwarding is enabled on Terminal Session configuration
+
 # HOW DOES THE SCRIPT WORK
 
 Below are some background information about the script:
@@ -32,3 +44,4 @@ iv.	API Request to http://s1.ripple.com:51234/ and filtering of json response fo
 v.	Graph is plotted with gnuplot with axis set to auto. All required formats for datetime are set with reference to the exported data.
 
 vi.	Average, Minimum and Maximum time differences between API calls are calculated from the response dataset after removal of records with duplicate sequence numbers and conversion of the timestamp to UNIX Epoch time. The result is then printed on the screen for convenience.
+
