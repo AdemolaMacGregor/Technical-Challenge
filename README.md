@@ -3,7 +3,7 @@ Repo for Hosting Technical Challenge Script
 
 This script is for retrieving, stroing and plotting datetime and sequence number data from latest validated ledger from Ripples API.
 
-HOW DOES THE SCRIPT WORK
+# HOW DOES THE SCRIPT WORK
 
 Below are some background information about the script:
 
@@ -40,7 +40,7 @@ v.	Graph is plotted with gnuplot with axis set to auto. All required formats for
 
 i.	Graph Parameters Below:
 gnuplot -persist <<-EOFMarker
-# grid
+#grid
 set grid
 #ranges
 set autoscale x
