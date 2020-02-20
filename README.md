@@ -7,7 +7,7 @@ This script is for retrieving, stroing and plotting datetime and sequence number
 
 Before executing the script, please ensure the following:
 
-Make the script executable by -- chmod +x startcaprure.sh
+Make the script executable by -- chmod +x startcapture.sh
 
 jq is installed (e.g. sudo yum install jq)
 
